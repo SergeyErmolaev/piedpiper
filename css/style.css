@@ -129,21 +129,44 @@ nav a{
 sup { vertical-align: baseline; position: relative; top: -1.1em; }
 sub { vertical-align: baseline; position: relative; bottom: -1.1em; }
 
+.hero {
+  /*padding: 128px 0;
+  padding: 128px 0;background-image: url('../img/neurons.png');
+  background-size: cover;*/ /*Это у степика было*/
+}
+
+.hero .container {
+  padding: 128px 163px;
+  background-image: url('../img/neurons.png');
+  background-size: cover;
+}
+/*
 .banner .container{
   display: flex;
-  height: 483px;
-  background: 50% 50%/1219px 483px url('../img/neurons.png') no-repeat;
+  padding: 128px 0;/*Работа над ошибками*/
+  /*height: 483px;
+  background: 100% 100%/1219px 483px url('../img/neurons.png') no-repeat;
   color: #ffffff;
   text-align: center;
   padding: 0;
 }
-
-.banner p{
+*/
+/*.banner p{
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
   font-style: italic;
   margin: auto;
+}*/
+
+.hero__message {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
 }
 
 .introducing img {
