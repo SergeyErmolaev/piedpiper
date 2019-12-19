@@ -176,7 +176,7 @@ sub { vertical-align: baseline; position: relative; bottom: -1.1em; }
 
 /*Team*/
 
-.team .container {
+/*.team .container {
   padding-bottom: 40px;
   background: #eeeeee;
 }
@@ -206,7 +206,7 @@ figure img{
   height: 168px;
 
   /*margin: auto;*/
-
+/*
 }
 
 figcaption{
@@ -227,7 +227,51 @@ figcaption span {
   font-size: 18px;
   line-height: 21px;
   font-weight: normal;
+}*/
+.team{
+  background: #eeeeee;
 }
+
+.team h2 {
+  padding-top: 48px;
+  margin-top: 0;
+  margin-bottom: 58px;
+}
+
+.member img{
+  width: 168px;
+  height: 168px;
+}
+
+.member {
+  width: 30%;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.members {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 68px;
+}
+
 
 /*FOOTER*/
 
